@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Sigmar&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="body">
+        <div class="playerBody">
+            <audio src="" class="music"></audio>
+            <div class="playerInfo">
+                <!-- <img src="./assets/images/1671795898_maxresdefault-1.png" alt="album" class="music-img">
+                <div>
+                    <p class="music-name txt">Name</p>
+                    <marquee class="music-desc txt" direction="right">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit.
+                        Blanditiis dolor quod,
+                        odio, quae porro rem eos similique quibusdam accusamus maxime distinctio temporibus placeat vel
+                        recusandae repellat perferendis quasi! Voluptates, consequatur!</marquee>
+                </div> -->
+            </div>
+            <div class="controller">
+                <div>
+                    <input type="range" value="0" class="range">
+                    <p class="time">00:00</p>
+                </div>
+                <div class="control-icons">
+                    <i class="fa-solid fa-backward icons" id="backward"></i>
+                    <i class="fa-solid fa-play icons " id="play"></i>
+                    <i class="fa-solid fa-pause icons none" id="pause"></i>
+                    <i class="fa-solid fa-forward icons" id="forward"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./data.js" type="module"></script>
+    <script src="/app.js" type="module"></script>
+</body>
+
+</html>
